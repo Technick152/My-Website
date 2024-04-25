@@ -1,0 +1,19 @@
+button{
+	cursor: pointer;
+	background-color: transparent;
+	border: 0px;
+	color: #E8E8E8;
+}
+
+img {
+  border: 5px solid #2D5FD2;
+}
+
+sub-div{
+	display: block;
+	text-align: center; height: 10%;
+	border-radius: 25px;
+	padding: 9px;
+	color: #E8E8E8;
+	background-color: #2D5FD2;
+};

@@ -1,0 +1,124 @@
+<link rel="stylesheet" href="index.css">
+
+<html style="background:#1b1b1b;">
+    <head>
+        <script>
+        function show(shown, hidden) {
+          document.getElementById(shown).style.display='block';
+          document.getElementById(hidden).style.display='none';
+          return false;
+        }
+        </script>
+    </head>
+
+    <div id="landing">
+        <header>
+            <sub-div>
+                <h1 style="height: 20px">Nicolas Alvarez</h1>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('aboutMe','landing');">About Me</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('projects','landing');">&emsp;Projects&emsp;</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('contactMe','landing');">Contact Me</a>
+            </sub-div>
+        </header>
+            <img src="https://img.hotimg.com/IMG_4675.jpeg" vspace="20" style="border-radius: 5%; display: block; margin-left: auto; margin-right: auto; width: 38%;">
+        <sub-div style="text-align:center"; style="position: absolute"; style="bottom: 0px";>
+            <h3>Links:</h3>
+            <sub-div>
+                <a style="color: #E8E8E8;" href="https://github.com/Technick152">GitHub</a>
+                <a style="color: #E8E8E8;" href="https://www.linkedin.com/in/nicolas-alvarez-ii-9198b128a/">LinkedIn</a>
+                <a style="color: #E8E8E8;" href="https://app.joinhandshake.com/stu/users/55655868">HandShake</a>
+            </sub-div>
+        </sub-div>
+    </div>
+
+    <div id="aboutMe" style="display: none">
+        <header>
+            <sub-div>
+                <h1 style="height: 20px">Nicolas Alvarez</h1>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('landing','aboutMe');">Landing</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('projects','aboutMe');">&emsp;Projects&emsp;</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('contactMe','aboutMe');">Contact Me</a>
+            </sub-div>
+        </header>
+            
+        <div>
+            <sub-div style="background: #b8e2f4; color: #040404; margin: auto; height: 23%; width: 70%;">
+                <h1 style="text-align: center;">About Me</h1>
+                <p>
+                    &emsp; &emsp;I was born in Vallejo, CA and raised in Oakland, but in my early teens I moved to San Diego where I live now. I am currently going to Palomar College for a CS degree and may also continue to study different CS related programs to improve my skills and learn about other related fields like cybersecurity and data science. I initially got into programming by taking AP Computer Science Principles, although I didn't apply myself much or take it very serious at the time I did like it but had other plans for my career. While I pursued other ventures I kept thinking back to how much I really liked programming and would occasionally try to build mini projects in code.org and scratch. Eventually I realized I wanted to be more than a Window Installer for the rest of my life and decided to apply to Palomar college where I am now.
+                </p>
+            </sub-div>    
+        </div>
+
+        <sub-div style="text-align:center"; style="position: absolute"; style="bottom: 0px";>
+            <h3>Links:</h3>
+            <sub-div>
+                <a style="color: #E8E8E8;" href="https://github.com/Technick152">GitHub</a>
+                <a style="color: #E8E8E8;" href="https://www.linkedin.com/in/nicolas-alvarez-ii-9198b128a/">LinkedIn</a>
+                <a style="color: #E8E8E8;" href="https://app.joinhandshake.com/stu/users/55655868">HandShake</a>
+            </sub-div>
+        </sub-div>
+    </div>
+
+    <div id="projects" style="display: none">
+        <header>
+            <sub-div>
+                <h1 style="height: 20px">Nicolas Alvarez</h1>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('aboutMe','projects');">About Me</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('landing','projects');">&emsp;Landing&emsp;</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('contactMe','projects');">Contact Me</a>
+            </sub-div>
+        </header>
+            
+        <div style="display: flex;">
+            <sub-div style="background: #b8e2f4; color: #040404; height: 31%; width: 30%;">
+                <h1 style="text-align: center;">Projects</h1>
+                <h3 style="text-align: left;">Instaform</h3>
+                <p style="text-align: left; width: 99%;">
+                    Currently I am working on a project for business management, so far I only have an employee management and payroll system but plan to soon add more features and generally improve it. I am coding it in C++ and have a more detailed explanation and roadmap at my GitHub listed in the footer, this is my only project significan't enough to put here for now.
+                </p>
+            </sub-div>
+            <img src="https://img.hotimg.com/Instaform-sc2.png"; hspace="60" style="border-radius: 5%; width: 30%; height: 30%;">
+            <img src="https://img.hotimg.com/Instaform-sc.png"; vspace="50"; style="border-radius: 5%; width: 30%; height: 30%;">    
+        </div>
+
+        <sub-div style="text-align:center"; style="position: absolute;" style="bottom: 0px";>
+            <h3>Links:</h3>
+            <sub-div>
+                <a style="color: #E8E8E8;" href="https://github.com/Technick152">GitHub</a>
+                <a style="color: #E8E8E8;" href="https://www.linkedin.com/in/nicolas-alvarez-ii-9198b128a/">LinkedIn</a>
+                <a style="color: #E8E8E8;" href="https://app.joinhandshake.com/stu/users/55655868">HandShake</a>
+            </sub-div>
+        </sub-div>
+    </div>
+
+    <div id="contactMe" style="display: none">
+        <header>
+            <sub-div>
+                <h1 style="height: 20px">Nicolas Alvarez</h1>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('aboutMe','contactMe');">About Me</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('projects','contactMe');">&emsp;Projects&emsp;</a>
+                <a style="cursor: pointer; color: #E8E8E8";href="#" onclick="return show('landing','contactMe');">Landing</a>
+            </sub-div>
+        </header>
+            
+        <div>
+            <sub-div style="background: #b8e2f4; color: #040404; margin: auto; height: 20%; width: 70%;">
+                <h1 style="text-align: center;">Contact Info</h1>
+                <h3 style="text-align: center;">Phone Number: 1-707-290-7201</h3>
+                <h3 style="text-align: center;">Email: Technick152@gmail.com</h3>
+
+            </sub-div>    
+        </div>
+
+        <sub-div style="text-align:center"; style="position: absolute"; style="bottom: 0px";>
+            <h3>Links:</h3>
+            <sub-div>
+                <a style="color: #E8E8E8;" href="https://github.com/Technick152">GitHub</a>
+                <a style="color: #E8E8E8;" href="https://www.linkedin.com/in/nicolas-alvarez-ii-9198b128a/">LinkedIn</a>
+                <a style="color: #E8E8E8;" href="https://app.joinhandshake.com/stu/users/55655868">HandShake</a>
+            </sub-div>
+        </sub-div>
+    </div>
+
+</html>
